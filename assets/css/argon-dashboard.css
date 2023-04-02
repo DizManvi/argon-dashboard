@@ -127,9 +127,14 @@ h6,
   color: var(--bs-heading-color);
 }
 
+
 h1,
 .h1 {
   font-size: calc(1.425rem + 2.1vw);
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top:20px;
 }
 
 @media (min-width: 1200px) {
@@ -1668,7 +1673,7 @@ progress {
   }
 
   .col-lg-5 {
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     width: 41.666667%;
   }
 
@@ -2454,7 +2459,7 @@ progress {
   }
 }
 
-.table {
+/* .table {
   --bs-table-color: #67748e;
   --bs-table-bg: transparent;
   --bs-table-border-color: #e9ecef;
@@ -2685,7 +2690,7 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-}
+} */
 
 .form-label {
   margin-bottom: 0.5rem;
@@ -9376,6 +9381,7 @@ fieldset:disabled .btn {
 
 .mt-4 {
   margin-top: 1.5rem !important;
+  height: 500px;
 }
 
 .mt-5 {
@@ -10580,7 +10586,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-  background-color: #5e72e4 !important;
+  background-color: pink !important;
 }
 
 .bg-secondary {
@@ -26934,3 +26940,4 @@ pre[class*="language-"] {
 }
 
 /*# sourceMappingURL=dashboard-free.css.map */
+
